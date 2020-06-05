@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Feel free to fill-up my forms!</h3><hr>
+<forms>
+    <label>First Name:</label>
+        <input type="text" id="first name" name="name" required
+       minlength="4" maxlength="20" size="20"><br><br>
+    <label>Last Name:</label>
+        <input type="text" id="last name" name="name" required
+          minlength="2" maxlength="20" size="20"><br><br><br>
+
+    <label>Email Address:</label>
+        <input type="email" id="email" name="email" required
+                minlength="8" maxlength="25" size="20"><br><br>
+    <label>Celfone Number:</label>
+        <input type="tel" id="phone" name="phone"
+               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+               required>
+        <small>Format: 123-456-7890</small><br><br>
+    <label>Fax Number:</label>
+        <input type="tel" id="fax" name="fax"
+               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+               required>
+        <small>Format: 123-456-7890</small><br><br>
+
+    
+
+    <p><u>Select your preferred way of communication:</u></p>
+        <input type="radio" id="celfone" name="comm" value="celfone">
+        <label for="celfone">Celfone</label>
+        <input type="radio" id="email" name="comm" value="email">
+        <label for="celfone">Email</label>
+        <input type="radio" id="fax" name="comm" value="fax">
+        <label for="fax">Fax</label><br><br>
+    
+    <p><u>Check boxes that apply about you:</u></p>
+        <input type="checkbox" id="professional" name="professional"
+         checked>
+        <label for="professional">Professional</label>
+        <input type="checkbox" id="student" name="student"
+         checked>
+        <label for="student">Student</label>
+        <input type="checkbox" id="businessman" name="businessman"
+         checked>
+        <label for="businessman">Businessman</label>
+
+    <p></p>
+    
+</forms>
+
+<ul>
+    <li><a href="index.html">My Homepage</a></li>
+    <li><a href="somegallery.html">My Gallery</a></li> 
+  </ul>
+</body>
+</html>
